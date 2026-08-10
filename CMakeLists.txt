@@ -16,10 +16,10 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(c___skeleton src/main.cpp
-        src/basket.h)
+)
 
 add_executable(c___skeleton_test
-        test/basket_total_tests.cpp
+        test/dummy_test.cpp
 )
 
 target_include_directories(c___skeleton_test PRIVATE src)
