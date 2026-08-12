@@ -1,9 +1,5 @@
 #include "gtest/gtest.h"
-
-class Basket {
-public:
-    double total(){ return 0.0; };
-};
+#include "basket.h"
 
 TEST(BasketTotal, EmptyBasket) {
     Basket basket;

@@ -16,6 +16,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 add_executable(c___skeleton src/main.cpp
+        src/basket.h
 )
 
 add_executable(c___skeleton_test
